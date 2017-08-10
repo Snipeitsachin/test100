@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="43" passed="43">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5478" started-at="2017-06-29T10:01:38Z" finished-at="2017-06-29T10:01:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5478" started-at="2017-06-29T10:01:38Z" finished-at="2017-06-29T10:01:44Z">
+      <class name="TestingApi">
+        <test-method status="PASS" signature="AppConfigbyid()[pri:0, instance:TestingApi@4b9e13df]" name="AppConfigbyid" duration-ms="2355" started-at="2017-06-29T15:31:38Z" finished-at="2017-06-29T15:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppConfigbyid -->
+        <test-method status="PASS" signature="AppointmentConfig()[pri:0, instance:TestingApi@4b9e13df]" name="AppointmentConfig" duration-ms="365" started-at="2017-06-29T15:31:41Z" finished-at="2017-06-29T15:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppointmentConfig -->
+        <test-method status="PASS" signature="BookAppointment()[pri:0, instance:TestingApi@4b9e13df]" name="BookAppointment" duration-ms="57" started-at="2017-06-29T15:31:41Z" finished-at="2017-06-29T15:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookAppointment -->
+        <test-method status="PASS" signature="CancelAppointmentbyid()[pri:0, instance:TestingApi@4b9e13df]" name="CancelAppointmentbyid" duration-ms="75" started-at="2017-06-29T15:31:41Z" finished-at="2017-06-29T15:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelAppointmentbyid -->
+        <test-method status="PASS" signature="DocRegistration()[pri:0, instance:TestingApi@4b9e13df]" name="DocRegistration" duration-ms="89" started-at="2017-06-29T15:31:41Z" finished-at="2017-06-29T15:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DocRegistration -->
+        <test-method status="PASS" signature="ForgotPassword()[pri:0, instance:TestingApi@4b9e13df]" name="ForgotPassword" duration-ms="52" started-at="2017-06-29T15:31:41Z" finished-at="2017-06-29T15:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgotPassword -->
+        <test-method status="PASS" signature="PasswordReset()[pri:0, instance:TestingApi@4b9e13df]" name="PasswordReset" duration-ms="56" started-at="2017-06-29T15:31:41Z" finished-at="2017-06-29T15:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PasswordReset -->
+        <test-method status="PASS" signature="SceduleConfigbyid()[pri:0, instance:TestingApi@4b9e13df]" name="SceduleConfigbyid" duration-ms="49" started-at="2017-06-29T15:31:41Z" finished-at="2017-06-29T15:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SceduleConfigbyid -->
+        <test-method status="PASS" signature="ScheduleConfig()[pri:0, instance:TestingApi@4b9e13df]" name="ScheduleConfig" duration-ms="70" started-at="2017-06-29T15:31:41Z" finished-at="2017-06-29T15:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScheduleConfig -->
+        <test-method status="PASS" signature="appointmentlistbystatus()[pri:0, instance:TestingApi@4b9e13df]" name="appointmentlistbystatus" duration-ms="70" started-at="2017-06-29T15:31:42Z" finished-at="2017-06-29T15:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appointmentlistbystatus -->
+        <test-method status="PASS" signature="bookedAppList()[pri:0, instance:TestingApi@4b9e13df]" name="bookedAppList" duration-ms="77" started-at="2017-06-29T15:31:42Z" finished-at="2017-06-29T15:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookedAppList -->
+        <test-method status="PASS" signature="city()[pri:0, instance:TestingApi@4b9e13df]" name="city" duration-ms="49" started-at="2017-06-29T15:31:42Z" finished-at="2017-06-29T15:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- city -->
+        <test-method status="PASS" signature="clinicRegistration()[pri:0, instance:TestingApi@4b9e13df]" name="clinicRegistration" duration-ms="90" started-at="2017-06-29T15:31:42Z" finished-at="2017-06-29T15:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clinicRegistration -->
+        <test-method status="PASS" signature="cliniclist()[pri:0, instance:TestingApi@4b9e13df]" name="cliniclist" duration-ms="63" started-at="2017-06-29T15:31:42Z" finished-at="2017-06-29T15:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cliniclist -->
+        <test-method status="PASS" signature="cliniclistbyid()[pri:0, instance:TestingApi@4b9e13df]" name="cliniclistbyid" duration-ms="34" started-at="2017-06-29T15:31:42Z" finished-at="2017-06-29T15:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cliniclistbyid -->
+        <test-method status="PASS" signature="cliniclistbyname()[pri:0, instance:TestingApi@4b9e13df]" name="cliniclistbyname" duration-ms="94" started-at="2017-06-29T15:31:42Z" finished-at="2017-06-29T15:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cliniclistbyname -->
+        <test-method status="PASS" signature="country()[pri:0, instance:TestingApi@4b9e13df]" name="country" duration-ms="38" started-at="2017-06-29T15:31:42Z" finished-at="2017-06-29T15:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- country -->
+        <test-method status="PASS" signature="countrybyid()[pri:0, instance:TestingApi@4b9e13df]" name="countrybyid" duration-ms="73" started-at="2017-06-29T15:31:42Z" finished-at="2017-06-29T15:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countrybyid -->
+        <test-method status="PASS" signature="district()[pri:0, instance:TestingApi@4b9e13df]" name="district" duration-ms="49" started-at="2017-06-29T15:31:42Z" finished-at="2017-06-29T15:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- district -->
+        <test-method status="PASS" signature="docProfileDetailsbyid()[pri:0, instance:TestingApi@4b9e13df]" name="docProfileDetailsbyid" duration-ms="36" started-at="2017-06-29T15:31:42Z" finished-at="2017-06-29T15:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- docProfileDetailsbyid -->
+        <test-method status="PASS" signature="doctorbyname()[pri:0, instance:TestingApi@4b9e13df]" name="doctorbyname" duration-ms="64" started-at="2017-06-29T15:31:42Z" finished-at="2017-06-29T15:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doctorbyname -->
+        <test-method status="PASS" signature="doctorlist()[pri:0, instance:TestingApi@4b9e13df]" name="doctorlist" duration-ms="133" started-at="2017-06-29T15:31:42Z" finished-at="2017-06-29T15:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doctorlist -->
+        <test-method status="PASS" signature="drugList()[pri:0, instance:TestingApi@4b9e13df]" name="drugList" duration-ms="120" started-at="2017-06-29T15:31:42Z" finished-at="2017-06-29T15:31:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drugList -->
+        <test-method status="PASS" signature="hospitabyid()[pri:0, instance:TestingApi@4b9e13df]" name="hospitabyid" duration-ms="357" started-at="2017-06-29T15:31:43Z" finished-at="2017-06-29T15:31:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hospitabyid -->
+        <test-method status="PASS" signature="hospitalRegistration()[pri:0, instance:TestingApi@4b9e13df]" name="hospitalRegistration" duration-ms="47" started-at="2017-06-29T15:31:43Z" finished-at="2017-06-29T15:31:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hospitalRegistration -->
+        <test-method status="PASS" signature="hospitallist()[pri:0, instance:TestingApi@4b9e13df]" name="hospitallist" duration-ms="32" started-at="2017-06-29T15:31:43Z" finished-at="2017-06-29T15:31:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hospitallist -->
+        <test-method status="PASS" signature="hospitallistbyname()[pri:0, instance:TestingApi@4b9e13df]" name="hospitallistbyname" duration-ms="40" started-at="2017-06-29T15:31:43Z" finished-at="2017-06-29T15:31:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hospitallistbyname -->
+        <test-method status="PASS" signature="intakeList()[pri:0, instance:TestingApi@4b9e13df]" name="intakeList" duration-ms="36" started-at="2017-06-29T15:31:43Z" finished-at="2017-06-29T15:31:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intakeList -->
+        <test-method status="PASS" signature="labRegistration()[pri:0, instance:TestingApi@4b9e13df]" name="labRegistration" duration-ms="39" started-at="2017-06-29T15:31:43Z" finished-at="2017-06-29T15:31:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- labRegistration -->
+        <test-method status="PASS" signature="lablist()[pri:0, instance:TestingApi@4b9e13df]" name="lablist" duration-ms="37" started-at="2017-06-29T15:31:43Z" finished-at="2017-06-29T15:31:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lablist -->
+        <test-method status="PASS" signature="lablistbyid()[pri:0, instance:TestingApi@4b9e13df]" name="lablistbyid" duration-ms="35" started-at="2017-06-29T15:31:43Z" finished-at="2017-06-29T15:31:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lablistbyid -->
+        <test-method status="PASS" signature="lablistbyname()[pri:0, instance:TestingApi@4b9e13df]" name="lablistbyname" duration-ms="67" started-at="2017-06-29T15:31:43Z" finished-at="2017-06-29T15:31:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lablistbyname -->
+        <test-method status="PASS" signature="login()[pri:0, instance:TestingApi@4b9e13df]" name="login" duration-ms="32" started-at="2017-06-29T15:31:43Z" finished-at="2017-06-29T15:31:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="patientRegistration()[pri:0, instance:TestingApi@4b9e13df]" name="patientRegistration" duration-ms="47" started-at="2017-06-29T15:31:43Z" finished-at="2017-06-29T15:31:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patientRegistration -->
+        <test-method status="PASS" signature="patientlistbyname()[pri:0, instance:TestingApi@4b9e13df]" name="patientlistbyname" duration-ms="42" started-at="2017-06-29T15:31:43Z" finished-at="2017-06-29T15:31:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patientlistbyname -->
+        <test-method status="PASS" signature="patientlistsbyid()[pri:0, instance:TestingApi@4b9e13df]" name="patientlistsbyid" duration-ms="35" started-at="2017-06-29T15:31:43Z" finished-at="2017-06-29T15:31:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patientlistsbyid -->
+        <test-method status="PASS" signature="prescription()[pri:0, instance:TestingApi@4b9e13df]" name="prescription" duration-ms="88" started-at="2017-06-29T15:31:43Z" finished-at="2017-06-29T15:31:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prescription -->
+        <test-method status="PASS" signature="prescriptionHistorybyid()[pri:0, instance:TestingApi@4b9e13df]" name="prescriptionHistorybyid" duration-ms="30" started-at="2017-06-29T15:31:44Z" finished-at="2017-06-29T15:31:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prescriptionHistorybyid -->
+        <test-method status="PASS" signature="prescriptionList()[pri:0, instance:TestingApi@4b9e13df]" name="prescriptionList" duration-ms="70" started-at="2017-06-29T15:31:44Z" finished-at="2017-06-29T15:31:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prescriptionList -->
+        <test-method status="PASS" signature="scheduleList()[pri:0, instance:TestingApi@4b9e13df]" name="scheduleList" duration-ms="33" started-at="2017-06-29T15:31:44Z" finished-at="2017-06-29T15:31:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scheduleList -->
+        <test-method status="PASS" signature="specialitylist()[pri:0, instance:TestingApi@4b9e13df]" name="specialitylist" duration-ms="43" started-at="2017-06-29T15:31:44Z" finished-at="2017-06-29T15:31:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- specialitylist -->
+        <test-method status="PASS" signature="specialitylistbyid()[pri:0, instance:TestingApi@4b9e13df]" name="specialitylistbyid" duration-ms="32" started-at="2017-06-29T15:31:44Z" finished-at="2017-06-29T15:31:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- specialitylistbyid -->
+        <test-method status="PASS" signature="state()[pri:0, instance:TestingApi@4b9e13df]" name="state" duration-ms="29" started-at="2017-06-29T15:31:44Z" finished-at="2017-06-29T15:31:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- state -->
+      </class> <!-- TestingApi -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

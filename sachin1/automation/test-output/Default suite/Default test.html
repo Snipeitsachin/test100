@@ -1,0 +1,294 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>43/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jun 29 15:31:38 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>5 seconds (5478 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestingApi.AppConfigbyid()'><b>AppConfigbyid</b><br>Test class: TestingApi</td>
+<td></td>
+<td>2</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.AppointmentConfig()'><b>AppointmentConfig</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.BookAppointment()'><b>BookAppointment</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.CancelAppointmentbyid()'><b>CancelAppointmentbyid</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.DocRegistration()'><b>DocRegistration</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.ForgotPassword()'><b>ForgotPassword</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.PasswordReset()'><b>PasswordReset</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.SceduleConfigbyid()'><b>SceduleConfigbyid</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.ScheduleConfig()'><b>ScheduleConfig</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.appointmentlistbystatus()'><b>appointmentlistbystatus</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.bookedAppList()'><b>bookedAppList</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.city()'><b>city</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.clinicRegistration()'><b>clinicRegistration</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.cliniclist()'><b>cliniclist</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.cliniclistbyid()'><b>cliniclistbyid</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.cliniclistbyname()'><b>cliniclistbyname</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.country()'><b>country</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.countrybyid()'><b>countrybyid</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.district()'><b>district</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.docProfileDetailsbyid()'><b>docProfileDetailsbyid</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.doctorbyname()'><b>doctorbyname</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.doctorlist()'><b>doctorlist</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.drugList()'><b>drugList</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.hospitabyid()'><b>hospitabyid</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.hospitalRegistration()'><b>hospitalRegistration</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.hospitallist()'><b>hospitallist</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.hospitallistbyname()'><b>hospitallistbyname</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.intakeList()'><b>intakeList</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.labRegistration()'><b>labRegistration</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.lablist()'><b>lablist</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.lablistbyid()'><b>lablistbyid</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.lablistbyname()'><b>lablistbyname</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.login()'><b>login</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.patientRegistration()'><b>patientRegistration</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.patientlistbyname()'><b>patientlistbyname</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.patientlistsbyid()'><b>patientlistsbyid</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.prescription()'><b>prescription</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.prescriptionHistorybyid()'><b>prescriptionHistorybyid</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.prescriptionList()'><b>prescriptionList</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.scheduleList()'><b>scheduleList</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.specialitylist()'><b>specialitylist</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.specialitylistbyid()'><b>specialitylistbyid</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+<tr>
+<td title='TestingApi.state()'><b>state</b><br>Test class: TestingApi</td>
+<td></td>
+<td>0</td>
+<td>TestingApi@4b9e13df</td></tr>
+</table><p>
+</body>
+</html>
